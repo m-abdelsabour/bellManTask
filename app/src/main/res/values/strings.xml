@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BellMan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="areIn">You Are In</string>
+    <string name="search">Search</string>
+    <string name="hotspot">HotSpots</string>
+    <string name="viewall">View All</string>
+    <string name="events">Events</string>
+    <string name="attracrtions">Attractions</string>
+    <string name="time">Time Out</string>
+    <string name="unreach">No Internet Connection</string>
+    <string name="internal">Internal Server Error</string>
+    <string name="bad">Bad Request</string>
+    <string name="notFound">Not Found</string>
+    <string name="unauthorize">Un Autharize</string>
+    <string name="manyRequest">Too Many Requests</string>
+</resources>
