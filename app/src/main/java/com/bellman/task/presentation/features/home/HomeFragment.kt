@@ -118,7 +118,7 @@ class HomeFragment : BaseFragment(), LocationHelper.LocationListner {
     override fun getLocation(location: Location?) {
         if (location != null) {
             locationHelper.stopLocationUpdate(activity)
-            textLocation.text=getCountryName(location.latitude,location.longitude)
+            textLocation?.text=getCountryName(location.latitude,location.longitude)
         }
     }
 

@@ -25,13 +25,11 @@
         app:menu="@menu/bottom_nav_items" />
 
 
-    <ImageView
+    <com.hitomi.cmlibrary.CircleMenu
         android:id="@+id/fabImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
         android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"
-        android:layout_marginBottom="50dp"
-        android:src="@drawable/bellman_bottom_icon" />
+        android:layout_centerInParent="true"/>
 
 </RelativeLayout>

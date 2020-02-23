@@ -24,6 +24,27 @@ class MainActivity : AppCompatActivity() {
         bottomBar.itemIconTintList = null
         bottomBar.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
         bottomBar.selectedItemId = R.id.home
+
+        fabImage.setMainMenu(
+            Color.parseColor ("#5E1653"),
+            R.drawable.bellman_bottom_icon,
+            R.drawable.bellman_bottom_icon
+        )
+            .addSubMenu(Color.parseColor("#FFFFFF"), R.drawable.hotspot_icon)
+            .addSubMenu(Color.parseColor("#FFFFFF"), R.drawable.attarctions_icon)
+            .addSubMenu(Color.parseColor("#FFFFFF"), R.drawable.events_icon)
+             .addSubMenu(Color.parseColor("#FFFFFF"), R.drawable.small_grey_location_pin)
+            .setOnMenuSelectedListener {
+
+            }
+            .setOnMenuStatusChangeListener(object : OnMenuStatusChangeListener {
+
+                override fun onMenuOpened() {}
+
+                override fun onMenuClosed() {}
+
+            })
+
     }
 
 
